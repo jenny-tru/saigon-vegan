@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+*,
+*::before,
+*::after {
+  position: relative;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  --color-primary: green;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.sgv-nav-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  color: black;
+  background-color: white;
+  text-align: left;
+  columns: 3;
+  padding: .5rem;
+  font-weight: bold;
+  > div {
+    text-align: center;
+  }
+}
+.sgv-nav-header a{
+  text-decoration: none;
+  color: black;
+}
+
+#customer-review {
+  width: 130px;
+  height: 50px;
+}
+
+.sgv-nav-list {
+  flex-grow: 1;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin: 0;
+  background-color: green;
+  font-weight: bold;
+}
+
+.sgv-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.sgv-hero::after {
+  content: "";
+  background: url(https://images.unsplash.com/photo-1541014741259-de529411b96a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.sgv-hero-inner {
+  text-align: center;
+  margin: 0;
+  background: #0007;
+  color: greenyellow;
+  padding: 1rem;
+  width: 70%;
+  height: 70%;
+}
+
+.sgv-hero-heading {
+  color: white;
+  text-shadow: 0 .25rem .25rem #0007;
+}
+
+h1 > small {
+  font-size: 50%;
+  text-transform: uppercase;
+  letter-spacing: .25ch;
+}
+
+.order-button {
+  appearance: none;
+  border: none;
+  background: green;
+  padding: 1rem;
+  color: white;
+  font-size: 125%;
+  font-weight: bold;
+  border-radius: .25rem;
+}
+
+.item-en {
+  font-weight: bold;
+}
+
+.item-vi {
+  font-style: italic;
+}
+
+.item-description {
+  font-size: 80%;
+}
+
+.sgv-menu {
+  
+  background: url("https://images.unsplash.com/photo-1594020293008-5f99f60bd4d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1206&q=80");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+.sgv-menu-items {
+  columns: 2;
+  background: white;
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+}
+
+// Mobile styles
+@media (max-width: 800px) {
+  .sgv-hero {
+    padding: 0;
+  }
+  .sgv-hero-inner {
+    width: 100%;
+  }
+  .sgv-menu {
+    padding: 0;
+  }
+
+  .sgv-menu-items {
+    width: 100%;
+    columns: 1;
+  }
+
+  .sgv-nav-list {
+    // display: block;
+    // overflow-x: auto;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+}
