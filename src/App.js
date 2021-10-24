@@ -33,7 +33,7 @@ export default function App() {
             <br /> Vegan Restaurant in Garden Grove!
             <br />Hours: 11am- 8pm Closed on Tuesdays
           </h3>
-          <button className="order-button">Call to Order Now </button>
+          <button className="order-button"><a href="tel:+16572316607">Call to Order Now </a>{" "}</button>
         </div>
       </div>
       <nav className="sgv-nav-list">
