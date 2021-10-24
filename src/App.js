@@ -38,7 +38,6 @@ export default function App() {
       </div>
       <nav className="sgv-nav-list">
           <ul>Home</ul>
-          <ul className="hide-on-mobile">Hours</ul>
           <ul>Photos</ul>
           <ul className="hide-on-mobile">Order Online</ul>
         </nav>
