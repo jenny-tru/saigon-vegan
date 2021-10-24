@@ -28,11 +28,12 @@ export default function App() {
             <small>Welcome to</small>
             <br /> Saigon Vegan <br /> Nhà Hàng Chay
           </h1>
-          <h3 className="sgv-hero-content">
+          <p className="sgv-hero-content">
             Join us for delicious Vietnamese plant-based home-style cooking!
             <br /> Vegan Restaurant in Garden Grove!
-            <br />Hours: 11am- 8pm Closed on Tuesdays
-          </h3>
+            <br />
+            <br /> <strong>Hours: 11am- 8pm Closed on Tuesdays</strong>
+          </p>
           <button className="order-button"><a href="tel:+16572316607">Call to Order Now </a>{" "}</button>
         </div>
       </div>
