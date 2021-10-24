@@ -46,140 +46,160 @@ export default function App() {
       <img src={logo} alt="sgv logo" id="logo" />
         <div className="sgv-menu-items">
           <ol>
-            <h2>Shareable</h2>
+            <h2>Appetizer</h2>
             <MenuItem
               en="Portobello Tenders"
-              vi="Nấm"
+              vi="Nấm Chiên"
               description="House-battered portobello served with garlic aoli sauce"
             />
             <MenuItem
               en="Egg Rolls"
               vi="Chả Giò"
               description="Hand-rolled with taro, impossible beef, mung bean, carrots, glass
-            noddle, and mushroom. Served with lettuce, fresh herbs, and fish
-            sauce"
+            noddle, and mushrooms. Served with lettuce, fresh herbs, and vegan fish sauce"
             />
             <MenuItem
               en="Crispy Tofu"
-              vi="Dậu Phụ Giòn"
+              vi="Dậu Phụ Chiên"
               description="Topped with fried onions and green onions. Served with house-made
             plum sauce"
             />
             <h2>On Bread</h2>
-
             <MenuItem
-              en="Ham and Cheese"
-              vi="bánh mì kẹp thịt nguội và pho mát"
-              description="Italian bread topped with imitation ham, grilled onions, and
-            melted imitation cheddar"
+              en="Vegan Ham and Cheese"
+              vi="bánh mì ham and cheese"
+              description="Italian bread topped with vegan ham, grilled onions, and
+            melted vegan cheddar"
             />
             <MenuItem
               en="Supreme Pizza"
-              vi="Bánh Pizza"
-              description="Italian bread topped with imitation sausage, marinara sauce, black
+              vi="Pizza Thập Cẩm"
+              description="Italian bread topped with vegan sausage, marinara sauce, black
             olives, grilled onions, red bell pepers, shiitake mushrooms,and
-            imitation mozzarella cheese"
+            vegan mozzarella cheese"
             />
             <MenuItem
               en="Original Philly"
-              vi="bánh sandwich philly"
-              description="Italian bread topped with impossible beef crumbles, grilled inons, and melted imitation provolone cheese"
+              vi="bánh mì philly"
+              description="Italian bread topped with impossible beef crumbles, grilled onons, and melted vegan provolone cheese"
             />
-            <MenuItem
-              en="Italian Meatballs Sandwhich"
+            {/* <MenuItem
+              en="Italian Vegan Meatballs Sandwhich"
               vi="bánh mì Ý thịt viên"
               description="Italian bread filled with meatballs, marinara sauce,imitation provolone; topped with parsley and imitation provolone"
-            />
+            /> */}
             <h2>Entrees</h2>
             <MenuItem
-              en="Rice Noodle Soup"
-              vi="Phở"
-              description="Imitation beef strips, imitation meatballs, tendon, snow mushroom, scallions, onions, cilantro, and rice noodle in our house-madebroth"
+              en="Pho Noodle Soup"
+              vi="Phở bò chay"
+              description="Vegan beef strips, vegan meatballs, mushroom, scallions, onions, cilantro, and rice noodle in our house-made broth"
             />
             <MenuItem
-              en="Spicy Noodle Soup"
+              en="Royal Noodle Soup"
               vi="Bún Bò Huế"
-              description="Imitation beef strips, Vietnamese imitation ham, tendons, scallions, cilantro, shiitake mushrooms, onions, and rice noodlein our spicy house-made broth"
+              description="Vegan beef strips, Vietnamese vegan ham, scallions, cilantro, mushrooms, onions, and rice noodlein our house-made broth"
             />
             <MenuItem
-              en="Vermicelli Noodle Soup"
+              en="Vermicelli Noodle with Soup"
               vi="Bún Riêu"
-              description="Our rice noodle soup with vermicelli noodles, tomatoes, imitation fish cake, oyster mushroom, tofu, green onions, fried onions,imitation Vietnamese ham, topped with cilantro"
+              description="Our tomato-based noodle soup with vermicelli noodles, tomatoes, imitation fish cake, mushroom, tofu, green onions, fried onions,imitation Vietnamese ham, topped with cilantro"
             />
             <MenuItem
               en="Pad Thai"
-              vi="mì Thái"
-              description="Rice noodle, mushroom, fried tofu, imitation beef or Chicken, and house-made sauce. Served with steamed bean sprout, carrots, andpeanuts and lime"
+              vi="Mì Pat Thái"
+              description="Rice noodle, mushroom, fried tofu, vegan chicken, and house-made sauce. Served with steamed bean sprout, carrots, peanuts and lime"
             />
             <MenuItem
-              en="Dill Fish Noodle Soup"
+              en="Fishless Cake with Noodles and Baby Dill"
               vi="Bún chả cá Thị Là"
-              description="vermicelli noodle, cripsy fishless cake, bell pepper, onions, dill leaves, roasted peanuts, and fish sauce
+              description="Vermicelli noodle, cripsy fishless cake, bell pepper, onions, dill leaves, roasted peanuts, and vegan fish sauce.
             "
             />
             <MenuItem
-              en="Hu Tieu Nam Vang"
+              en="House Noodle Soup"
               vi="Hủ Tiếu Nam Vang"
-              description="Rice noodle, Imitation Chicken or beef, mushroom, tofu, carrots, and daikon root
+              description="Rice noodle, vegan Chicken and impossible beef, mushroom, tofu, broccoli, carrots, and daikon root.
             "
             />
             <MenuItem
-              en="Duck Noodle Soup"
+              en="Duckless Noodle Soup"
               vi="Mì Vịt Tiềm"
-              description="Rice noodle soup with tomatoes, imitation fish cake, oyster mushroom,water spinach, Vietnamese imitation ham, tofu, green onions, fried onions, topped with cilantro"
+              description="Yellow noodle soup, mushroom, bok choy, duckless meat, carrots, gogi berries"
             />
             <MenuItem
-              en="Fried Rice"
+              en="Stir Fry Garlic Noodles"
+              vi="Mì Xào Tỏi"
+              description="Yellow noodles stir fried with vegan beef strips, mushroom, and broccoli. Topped with vegan parmesean and parsley"
+            />
+            <MenuItem
+              en="Rice Noodle with Tomato Soup"
+              vi="Canh Bún"
+              description="Rice noodles with tomato-based soup, fishless cake, mushroom, water spinach, vegan ham, tofu, and green onions. Topped with fried onions and cilantro"
+            />
+            <MenuItem
+              en="House Fried Rice"
               vi="Cơm Chiên"
-              description="White rice imitation bacon, green peas, carrots, tofu, imitation chicken bites, cilantro and green onions"
+              description="White rice vegan bacon, green peas, carrots, tofu, vegan chicken, cilantro and green onions"
             />
             <MenuItem
-              en="Cripsy Fried Noodle"
+              en="Cripsy Fried Yellow Noodles"
               vi="Mì Xào Giòn"
-              description="Crispy chow mein with imitation chicken, rofu, ,green onions, brocolli, bok choy, carrots, chinese spinach, shiitake mushroom, and oyster sauce"
+              description="Crispy chow mein with vegan chicken, tofu, ,green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce"
             />
             <MenuItem
-              en="Sauteed Noodles"
+              en="Stir Fried Noodles"
               vi="Mì Xào Mềm"
-              description="Chow mein with imitation chicken, rofu, ,green onions, brocolli, bok choy, carrots, chinese spinach, shiitake mushroom, and oyster sauce"
+              description="Lo mein with vegan chicken, tofu, ,green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce"
             />
             <MenuItem
-              en="Pan Fried Noodle"
+              en="Pan Fried Rice Noodles"
               vi="Phở Áp Chảo"
-              description="n/a"
+              description="Fried rice noodle with tofu, ,green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce"
             />
             <MenuItem
-              en="Grilled Beef Noodles + Egg Rolls"
+              en="BBQ Porkless Vermicelli + Egg Rolls"
               vi="Bún Thịt Nướng + Chả Giò"
-              description="BBQ noodle bowl with vermicelli noodle, eggrolls, grilled bean curd, shredded imitation pork, green onions, fried onions; topped with pickled veggies, bean sprout, mint leaves, and peanuts; served with fish sauce"
+              description="Vermicelli noodle with eggrolls, shredded vegan pork, green onions, fried onions, bean sprout, and mint leaves. Topped with pickled carrots, daikon and peanuts. Served with vegan fish sauce"
             />
             <MenuItem
-              en="Chicken Curry Stew"
-              vi="Gà hầm cà ri"
-              description="shredded imitation chicken, potatoes, carrots, green beans, cilantro, and onions in our creamy coconut curry sauce; served with french baguette"
+              en="Chicken Curry"
+              vi="Cà Ri Gà"
+              description="Creamy coconut curry with shredded vegan chicken, potatoes, carrots, and green beans. Topped with cilantro, and onions. Served with choice of rice or baguette"
             />
             <MenuItem
               en="Beef Stew"
-              vi="thịt bò hầm"
-              description="Hand-crafted imitation meatballs, potatoes carrots kale, cilantro, and onions inside a french baguette"
+              vi="Bò Kho"
+              description="Hand-crafted vegan meatballs, potatoes, carrots, kale, and onions. Topped with cilantro. Served on a french baguette"
             />
             <MenuItem
               en="Red Wine Meatball Stew"
-              vi="Hầm thịt viên rượu vang đỏ"
-              description="Hand-crafted imitation meatballs, asparagus, carrots, onions, and potatoes"
+              vi="bò viên hàm rượu đỏ"
+              description="Hand-crafted vegan meatballs, asparagus, carrots, onions, and potatoes. Served in a house-made red wine stew and french baugette"
+            />
+            <MenuItem
+              en="Saigon Noodle Soup"
+              vi="hủ tiếu Mì"
+              description="White and yellow noodles , char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made broth."
+            />
+            <MenuItem
+              en="Orange Cauliflower"
+              vi="Bông Cải Trắng Sốt Cam"
+              description="Breaded cauliflower with house-made orange sauce. Served with white rice and side salad."
             />
             <h2>Drinks</h2>
-            <li>Vietnamese Iced Coffee</li>
             <li>Passion Fruit Juice</li>
+            <li>Hisbiscus Tea with Crystal Boba</li>
             <li>Thai Iced Tea</li>
-            <li>Organic Hot/Iced tea</li>
-            <li>Coke</li>
-            <li>Sparkling Water </li>
+            <li>Vietnamese Iced Coffee</li>
+            <li>Jasmine or Earl Grey Hot/Iced tea</li>
+            <li>Pandan Hot/Iced Tea</li>
+            <li>Coke or Sprite</li>
+            <li>Sparkling Water</li>
             <h2>Dessert</h2>
             <MenuItem
               en="Fabulous Flan"
-              vi="bánh flan"
-              description="Rich and creamy house-made custard with our coffee caramel sauce"
+              vi="Bánh Flan"
+              description="Rich and creamy house-made vegan custard with our coffee caramel sauce"
             />
           </ol>
         </div>
