@@ -1,6 +1,7 @@
 import { MenuItem } from "./MenuItem";
 import "./styles.scss";
 import happycow from "./happycow.jpeg";
+import logo from "./sgv-logo.png";
 
 export default function App() {
   return (
@@ -18,13 +19,7 @@ export default function App() {
             </a>
           </div>
         </div>
-        <nav className="sgv-nav-list">
-          <ul>Home</ul>
-          <ul className="hide-on-mobile">Hours</ul>
-          <ul>Photos</ul>
-          <ul className="hide-on-mobile">Contact</ul>
-          <ul>Order Online</ul>
-        </nav>
+    {/* old nav was here */}
       </header>
       <div className="sgv-hero">
         <div className="sgv-hero-inner">
@@ -35,14 +30,19 @@ export default function App() {
           <h3 className="sgv-hero-content">
             Join us for delicious Vietnamese plant-based home-style cooking!
             <br /> Vegan Restaurant in Garden Grove!
+            <br />Hours: 11am- 8pm Closed on Tuesdays
           </h3>
-          <button className="order-button"> Order Now </button>
+          <button className="order-button">Call to Order Now </button>
         </div>
       </div>
-      <div>
-        <strong>Hours: 11am- 8pm Closed on Tuesdays </strong>
-      </div>
+      <nav className="sgv-nav-list">
+          <ul>Home</ul>
+          <ul className="hide-on-mobile">Hours</ul>
+          <ul>Photos</ul>
+          <ul className="hide-on-mobile">Order Online</ul>
+        </nav>
       <div className="sgv-menu">
+      <img src={logo} alt="sgv logo" id="logo" />
         <div className="sgv-menu-items">
           <ol>
             <h2>Shareable</h2>
@@ -184,7 +184,18 @@ export default function App() {
         </div>
       </div>
       <footer className="sgv-footer">
-        Open every day (closed on Tuesdays) 11am to 8pm, Phone 657-231-6607
+      <div className="sgv-nav-header">
+          <div>🗺️ 10522 McFadden Ave. Garden Grove 92843 </div>
+          <div>
+            {" "}
+            <a href="tel:+16572316607">📞 657-231-6607</a>{" "}
+          </div>
+          <div>
+            <a href="https://www.happycow.net/reviews/saigon-vegan-garden-grove-166207">
+              <img src={happycow} alt="reviews" id="customer-review" />
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
   );
