@@ -15,7 +15,7 @@ html, body {
   font-size: 18px;
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
-  --color-primary: green;
+  --color-primary: #137A4E;
 }
 
 .App {
@@ -104,7 +104,7 @@ h1 > small {
 .order-button {
   appearance: none;
   border: none;
-  background: green;
+  background: var(--color-primary);
   padding: 1rem;
   color: white;
   font-size: 125%;
@@ -115,7 +115,7 @@ h1 > small {
 #logo {
   display: block;
   margin: auto;
-  padding: 0;
+  padding: 1rem;
   width: 30%;
   height: 50%;
 }
@@ -134,7 +134,7 @@ h1 > small {
 
 .sgv-menu {
   
-  background: url("https://images.unsplash.com/photo-1594020293008-5f99f60bd4d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1206&q=80");
+  background: url("https://scontent-mia3-2.xx.fbcdn.net/v/t1.15752-9/245650681_4718253914906188_5473549537238189941_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ULBFCt6Ur-QAX8Wj6Bq&_nc_oc=AQlDHZ6yKTAP4P3m5CHx9dbrYqZ3BEmZaYAbblGBYWHfP3QIMdnDnj15AvoJbf6uMNA&_nc_ht=scontent-mia3-2.xx&oh=c50360a9b013e4b37d1d7af7892ee7d9&oe=619A50CE");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

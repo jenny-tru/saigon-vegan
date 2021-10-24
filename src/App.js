@@ -2,6 +2,7 @@ import { MenuItem } from "./MenuItem";
 import "./styles.scss";
 import happycow from "./happycow.jpeg";
 import logo from "./sgv-logo.png";
+import bkg from "./bkg.jpg";
 
 export default function App() {
   return (
