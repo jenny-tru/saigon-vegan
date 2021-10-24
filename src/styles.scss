@@ -26,8 +26,8 @@ html, body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: var(--color-primary);
   text-align: left;
   columns: 3;
   padding: .5rem;
@@ -38,7 +38,7 @@ html, body {
 }
 .sgv-nav-header a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #customer-review {
@@ -67,7 +67,7 @@ html, body {
 
 .sgv-hero::after {
   content: "";
-  background: url(https://images.unsplash.com/photo-1541014741259-de529411b96a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80);
+  background: url(https://images.unsplash.com/photo-1506267594256-7667b0040d31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -169,10 +169,10 @@ h1 > small {
     columns: 1;
   }
 
-  .sgv-nav-list {
-    // display: block;
-    // overflow-x: auto;
-  }
+  // .sgv-nav-list {
+  //   display: block;
+  //   overflow-x: auto;
+  // }
 
   .hide-on-mobile {
     display: none;
