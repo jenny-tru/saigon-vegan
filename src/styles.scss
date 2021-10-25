@@ -122,7 +122,8 @@ h1 > small {
   margin: auto;
   padding: 1rem;
   width: 30%;
-  height: 50%;
+  min-width: 300px;
+  height: auto;
 }
 
 .item-en {
@@ -138,7 +139,6 @@ h1 > small {
 }
 
 .sgv-menu {
-  
   background: url("https://scontent-mia3-2.xx.fbcdn.net/v/t1.15752-9/245650681_4718253914906188_5473549537238189941_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ULBFCt6Ur-QAX8Wj6Bq&_nc_oc=AQlDHZ6yKTAP4P3m5CHx9dbrYqZ3BEmZaYAbblGBYWHfP3QIMdnDnj15AvoJbf6uMNA&_nc_ht=scontent-mia3-2.xx&oh=c50360a9b013e4b37d1d7af7892ee7d9&oe=619A50CE");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -150,6 +150,9 @@ h1 > small {
 
 
 .sgv-menu-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
   columns: 2;
   background: white;
   width: 70%;
