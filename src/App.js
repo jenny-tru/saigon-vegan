@@ -1,6 +1,7 @@
 import { MenuItem } from "./MenuItem";
 import "./styles.scss";
 import happycow from "./happycow.jpeg";
+import yelp from "./yelp.jpg";
 import logo from "./sgv-logo.png";
 import bkg from "./bkg.jpg";
 
@@ -12,13 +13,15 @@ export default function App() {
           <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ 10522 McFadden Ave. Garden Grove 92843</a></div>
           <div>
             {" "}
-            <a href="tel:+16572316607">📞 657-231-6607</a>{" "}
+            <a href="tel:+16572316607" className="hide-on-mobile">📞 657-231-6607</a>{" "}
           </div>
           <div>
             <a href="https://www.happycow.net/reviews/saigon-vegan-garden-grove-166207">
               <img src={happycow} alt="reviews" id="customer-review" />
             </a>
+            <img src={yelp} alt="reviews" id="customer-review" />
           </div>
+          
         </div>
     {/* old nav was here */}
       </header>
@@ -45,7 +48,7 @@ export default function App() {
       <img src={logo} alt="sgv logo" id="logo" />
         <div className="sgv-menu-items">
           <div class="left-column">
-            <h2>Appetizer</h2>
+            <h2>Appetizers</h2>
             <MenuItem
               price="$7.45"
               en="Portobello Tenders"
@@ -99,7 +102,7 @@ export default function App() {
             />
             <MenuItem
               price="$3.75"
-              en="Hibiscus Tea w/ Crystal Boba"
+              en="⭐Hibiscus Tea w/ Crystal Boba (NEW)"
               vi="Trà Dâm Bụt Với Boba"
               description=""
             />
@@ -156,6 +159,20 @@ export default function App() {
             </div>
             <div class="right-column">
             <h2>Entrees</h2>
+            <div className="new-item">
+            <MenuItem
+              price="$9.50"
+              en="⭐Saigon Noodle Soup (NEW)"
+              vi="Hủ Tiếu Mì"
+              description="White and yellow noodles , char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made broth."
+            />
+            <MenuItem
+              price="$9.50"
+              en="⭐Orange Cauliflower (NEW)"
+              vi="Bông Cải Trắng Sốt Cam"
+              description="Breaded cauliflower w/ house-made orange sauce. Served w/ white rice and side salad."
+            />
+            </div>
             <MenuItem
               price="$10.50"
               en="Pho Noodle Soup"
@@ -260,32 +277,21 @@ export default function App() {
               vi="Bò Viên Hàm Rượu Đỏ"
               description="Hand-crafted vegan meatballs, asparagus, carrots, onions, and potatoes. Served in a house-made red wine stew and french baugette."
             />
-            <MenuItem
-              price="$9.50"
-              en="Saigon Noodle Soup"
-              vi="Hủ Tiếu Mì"
-              description="White and yellow noodles , char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made broth."
-            />
-            <MenuItem
-              price="$9.50"
-              en="Orange Cauliflower"
-              vi="Bông Cải Trắng Sốt Cam"
-              description="Breaded cauliflower w/ house-made orange sauce. Served w/ white rice and side salad."
-            />
             </div>
         </div>
       </div>
       <footer className="sgv-footer">
       <div className="sgv-nav-header">
-      <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ 10522 McFadden Ave. Garden Grove 92843</a></div>
+      <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ Visit Us</a></div>
           <div>
             {" "}
-            <a href="tel:+16572316607">📞 657-231-6607</a>{" "}
+            <a href="tel:+16572316607">📞 Call Us</a>{" "}
           </div>
           <div>
             <a href="https://www.happycow.net/reviews/saigon-vegan-garden-grove-166207">
               <img src={happycow} alt="reviews" id="customer-review" />
             </a>
+            <img src={yelp} alt="reviews" id="customer-review" />
           </div>
         </div>
       </footer>
