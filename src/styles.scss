@@ -148,16 +148,27 @@ h1 > small {
   padding-bottom: 5rem;
 }
 
-
 .sgv-menu-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 2rem;
   columns: 2;
   background: white;
   width: 70%;
   margin: auto;
+}
+
+.item-en {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-column, .right-column {
   padding: 2rem;
+}
+
+.left-column {
+  border-right: 1px solid #dcdcdc;
 }
 
 // Mobile styles
