@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <header className="sgv-header">
         <div className="sgv-nav-header">
-          <div>🗺️ 10522 McFadden Ave. Garden Grove 92843 </div>
+          <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ 10522 McFadden Ave. Garden Grove 92843</a></div>
           <div>
             {" "}
             <a href="tel:+16572316607">📞 657-231-6607</a>{" "}
@@ -62,7 +62,7 @@ export default function App() {
             <MenuItem
               price="$6.75"
               en="Crispy Tofu"
-              vi="Dậu Hụ Chiên"
+              vi="Đậu Hũ Chiên"
               description="Topped w/ fried onions and green onions. Served w/ house-made plum sauce."
             />
             <h2>On Bread</h2>
@@ -277,7 +277,7 @@ export default function App() {
       </div>
       <footer className="sgv-footer">
       <div className="sgv-nav-header">
-          <div>🗺️ 10522 McFadden Ave. Garden Grove 92843 </div>
+      <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ 10522 McFadden Ave. Garden Grove 92843</a></div>
           <div>
             {" "}
             <a href="tel:+16572316607">📞 657-231-6607</a>{" "}
