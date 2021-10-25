@@ -171,8 +171,29 @@ h1 > small {
   border-right: 1px solid #dcdcdc;
 }
 
+.sgv-nav-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  background-color: var(--color-primary);
+  text-align: left;
+  padding: .5rem;
+  font-weight: bold;
+  > div {
+    text-align: center;
+  }
+}
+
+.sgv-nav-footer a{
+  text-decoration: none;
+  color: white;
+}
+
 // Mobile styles
 @media (max-width: 900px) {
+  .sgv-nav-header {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .sgv-hero {
     padding: 0;
   }

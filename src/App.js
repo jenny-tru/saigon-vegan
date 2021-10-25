@@ -19,7 +19,9 @@ export default function App() {
             <a href="https://www.happycow.net/reviews/saigon-vegan-garden-grove-166207">
               <img src={happycow} alt="reviews" id="customer-review" />
             </a>
+            <a href="https://www.yelp.com/biz/saigon-vegan-garden-grove-2">
             <img src={yelp} alt="reviews" id="customer-review" />
+            </a>
           </div>
           
         </div>
@@ -281,17 +283,11 @@ export default function App() {
         </div>
       </div>
       <footer className="sgv-footer">
-      <div className="sgv-nav-header">
+      <div className="sgv-nav-footer">
       <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ Visit Us</a></div>
           <div>
             {" "}
             <a href="tel:+16572316607">📞 Call Us</a>{" "}
-          </div>
-          <div>
-            <a href="https://www.happycow.net/reviews/saigon-vegan-garden-grove-166207">
-              <img src={happycow} alt="reviews" id="customer-review" />
-            </a>
-            <img src={yelp} alt="reviews" id="customer-review" />
           </div>
         </div>
       </footer>
