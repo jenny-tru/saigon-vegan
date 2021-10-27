@@ -13,7 +13,7 @@ export default function App() {
           <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ 10522 McFadden Ave. Garden Grove 92843</a></div>
           <div>
             {" "}
-            <a href="tel:+16572316607" className="hide-on-mobile">📞 657-231-6607</a>{" "}
+            <a href="tel:+16572316607">📞 657-231-6607</a>{" "}
           </div>
           <div>
             <a href="https://www.happycow.net/reviews/saigon-vegan-garden-grove-166207">
@@ -44,7 +44,7 @@ export default function App() {
       </div>
       <nav className="sgv-nav-list">
           <ul className="hide-on-mobile">Home</ul>
-          <ul>Photos</ul>
+          <ul >Photos (COMING SOON!)</ul>
         </nav>
       <div className="sgv-menu">
       <img src={logo} alt="sgv logo" id="logo" />
@@ -77,12 +77,12 @@ export default function App() {
               vi="Bánh Mì Ham & Cheese"
               description="Italian bread topped w/ vegan ham, grilled onions, and melted vegan cheddar."
             />
-            <MenuItem
+            {/* <MenuItem
               price="$10.45"
               en="Supreme Pizza"
               vi="Pizza Thập Cẩm"
               description="Italian bread topped w/ vegan sausage, marinara sauce, black olives, grilled onions, red bell pepers, shiitake mushrooms,and vegan mozzarella cheese."
-            />
+            /> */}
             <MenuItem
               price="$10.75"
               en="Original Philly"
@@ -139,9 +139,9 @@ export default function App() {
               description=""
             />
             <MenuItem
-              price="$1.50"
+              price="$1.25"
               en="
-              Sparkling Water"
+              Bottle Water"
               vi="Nuoc Soda"
               description=""
             />
@@ -203,7 +203,7 @@ export default function App() {
               price="$10.45"
               en="Fishless Cake w/ Noodles & Baby Dill"
               vi="Bún Chả Cá Thị Là"
-              description="Vermicelli noodle, cripsy fishless cake, bell pepper, onions, dill leaves, roasted peanuts, and vegan fish sauce.
+              description="Vermicelli noodle, crispy fishless cake, bell pepper, onions, dill leaves, roasted peanuts, and vegan fish sauce.
             "
             />
             <MenuItem
@@ -217,7 +217,7 @@ export default function App() {
               price="$10.45"
               en="Duckless Noodle Soup"
               vi="Mì Vịt Tiềm"
-              description="Yellow noodle soup, mushroom, bok choy, duckless meat, carrots, goji berries."
+              description="Yellow noodles, mushroom, bok choy, duckless meat, carrots, and goji berries in our house-made duckless soup broth."
             />
             <MenuItem
               price="$10.50"
@@ -253,7 +253,7 @@ export default function App() {
               price="$10.95"
               en="Pan Fried Rice Noodles"
               vi="Phở Áp Chảo"
-              description="Fried rice noodle w/ tofu, green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
+              description="Choice of crispy or soft noodle. Rice noodle dish w/ tofu, green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
             />
             <MenuItem
               price="$11.45"
