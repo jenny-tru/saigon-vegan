@@ -142,7 +142,7 @@ export default function App() {
               price="$1.25"
               en="
               Bottle Water"
-              vi="Nuoc Soda"
+              vi="Nuoc"
               description=""
             />
             <h2>Sides</h2>
@@ -173,7 +173,7 @@ export default function App() {
             <MenuItem
               price="$2.00"
               en="Tofu"
-              vi="Đậu hũ"
+              vi="Đậu Hũ"
               description=""
             />
             <MenuItem
