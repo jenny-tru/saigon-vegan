@@ -145,6 +145,43 @@ export default function App() {
               vi="Nuoc Soda"
               description=""
             />
+            <h2>Sides</h2>
+            <MenuItem
+              price="$1.25"
+              en="Bauguette"
+              vi="Bánh Mì"
+              description=""
+            />
+            <MenuItem
+              price="$1.00"
+              en="White Rice"
+              vi="Cơm Trắng"
+              description=""
+            />
+            <MenuItem
+              price="$1.25"
+              en="Brown Rice"
+              vi="Cơm Lức"
+              description=""
+            />
+            <MenuItem
+              price="$2.00"
+              en="Vietnamese Vetgetarian Ham"
+              vi="Chả Lụa Chay"
+              description=""
+            />
+            <MenuItem
+              price="$2.00"
+              en="Tofu"
+              vi="Đậu hũ"
+              description=""
+            />
+            <MenuItem
+              price="$1.50"
+              en="Water Spinach"
+              vi="Rau Muống"
+              description=""
+            />
             {/* <MenuItem
               price="$3.75"
               en=""
@@ -239,8 +276,8 @@ export default function App() {
             />
             <MenuItem
               price="$10.95"
-              en="Cripsy Fried Yellow Noodles"
-              vi="Mì Xào Dòn"
+              en="Crispy Fried Yellow Noodles"
+              vi="Mì Xào Giòn"
               description="Crispy chow mein w/ vegan chicken, tofu, green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
             />
             <MenuItem
