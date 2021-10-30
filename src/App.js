@@ -148,7 +148,7 @@ export default function App() {
             <h2>Sides</h2>
             <MenuItem
               price="$1.25"
-              en="Bauguette"
+              en="Baguette"
               vi="Bánh Mì"
               description=""
             />
@@ -166,7 +166,7 @@ export default function App() {
             />
             <MenuItem
               price="$2.00"
-              en="Vietnamese Vetgetarian Ham"
+              en="Vietnamese Vegan Ham"
               vi="Chả Lụa Chay"
               description=""
             />
@@ -239,7 +239,7 @@ export default function App() {
             <MenuItem
               price="$10.45"
               en="Fishless Cake w/ Noodles & Baby Dill"
-              vi="Bún Chả Cá Thị Là"
+              vi="Bún Chả Cá Thì Là"
               description="Vermicelli noodle, crispy fishless cake, bell pepper, onions, dill leaves, roasted peanuts, and vegan fish sauce.
             "
             />
@@ -276,7 +276,7 @@ export default function App() {
             />
             <MenuItem
               price="$10.95"
-              en="Crispy Fried Yellow Noodles"
+              en="Crispy Fried Chow Mein"
               vi="Mì Xào Giòn"
               description="Crispy chow mein w/ vegan chicken, tofu, green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
             />
@@ -313,7 +313,7 @@ export default function App() {
             <MenuItem
               price="$13.00"
               en="Red Wine Meatball Stew"
-              vi="Bò Viên Hàm Rượu Đỏ"
+              vi="Bò Viên Hâm Rượu Đỏ"
               description="Hand-crafted vegan meatballs, asparagus, carrots, onions, and potatoes. Served in a house-made red wine stew and french baugette."
             />
             </div>
