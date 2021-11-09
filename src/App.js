@@ -195,13 +195,14 @@ export default function App() {
               vi="Bánh Flan"
               description="Rich and creamy house-made vegan custard w/ our coffee caramel sauce."
             />
+            <div>**Gluten Free items available upon request**</div>
             </div>
             <div class="right-column">
             <h2>Entrees</h2>
             <div className="new-item">
             <MenuItem
               price="$9.50"
-              en="⭐Saigon Noodle Soup (NEW)"
+              en="⭐Saigon Noodle Soup (NEW)**"
               vi="Hủ Tiếu Mì"
               description="White and yellow noodles, char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made vegetable broth."
             />
@@ -214,7 +215,7 @@ export default function App() {
             </div>
             <MenuItem
               price="$10.50"
-              en="Pho Noodle Soup"
+              en="Pho Noodle Soup**"
               vi="Phở Bò Chay"
               description="Vegan beef strips, vegan meatballs, mushroom, scallions, onions, cilantro, and rice noodle in our house-made pho broth."
             />
@@ -270,7 +271,7 @@ export default function App() {
             />
             <MenuItem
               price="$10.45"
-              en="House Fried Rice"
+              en="House Fried Rice**"
               vi="Cơm Chiên"
               description="White rice w/ vegan bacon, green peas, carrots, tofu, vegan chicken, cilantro and green onions."
             />
@@ -300,7 +301,7 @@ export default function App() {
             />
             <MenuItem
               price="$12.00"
-              en="Chicken Curry"
+              en="Chicken Curry**"
               vi="Cà Ri Gà"
               description="Creamy coconut curry w/ shredded vegan chicken, potatoes, carrots, and green beans. Topped w/ cilantro. Served w/ choice of rice or baguette."
             />
