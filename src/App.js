@@ -62,7 +62,7 @@ export default function App() {
               en="Egg Rolls"
               vi="Chả Giò"
               description="Hand-rolled w/ taro, impossible beef, mung bean, carrots, glass
-            noddle, and mushrooms. Served w/ lettuce, fresh herbs, and vegan fish sauce."
+            noodle, and mushrooms. Served w/ lettuce, fresh herbs, and vegan fish sauce."
             />
             <MenuItem
               price="$6.75"
@@ -75,7 +75,7 @@ export default function App() {
               price="$10.45"
               en="Vegan Ham & Cheese"
               vi="Bánh Mì Ham & Cheese"
-              description="Italian bread topped w/ vegan ham, grilled onions, and melted vegan cheddar."
+              description="Ciabatta bread topped w/ vegan ham, grilled onions, and melted vegan cheddar and parmesan. Served with a side salad."
             />
             {/* <MenuItem
               price="$10.45"
@@ -87,7 +87,7 @@ export default function App() {
               price="$10.75"
               en="Original Philly"
               vi="Bánh Mì Philly"
-              description="Italian bread topped w/ impossible beef crumbles, grilled onons, and melted vegan provolone cheese."
+              description="Ciabatta bread topped w/ impossible beef crumbles, grilled onons, and melted vegan provolone and mozzarella cheese. Served with a side salad."
             />
             {/* <MenuItem
               price="$12.45"
@@ -98,51 +98,51 @@ export default function App() {
             <h2>Drinks</h2>
             <MenuItem
               price="$3.75"
-              en="Passion Fruit Juice"
-              vi="Nước Ép Chanh Dây"
+              en="⭐Hibiscus Tea w/ Crystal Boba (NEW)"
+              vi=""
               description=""
             />
             <MenuItem
               price="$3.75"
-              en="⭐Hibiscus Tea w/ Crystal Boba (NEW)"
-              vi="Trà Dâm Bụt Với Boba"
+              en="Passion Fruit Juice"
+              vi=""
               description=""
             />
             <MenuItem
               price="$3.75"
               en="Thai Iced Tea"
-              vi="Trà Đá Thái"
+              vi=""
               description=""
             />
             <MenuItem
               price="$3.75"
               en="Viet Iced Coffee"
-              vi="Cà Phê Sữa Đá"
+              vi=""
               description=""
             />
             <MenuItem
               price="$1.25"
               en="Organic Jasmine or Earl Grey Hot/Iced Tea"
-              vi="Trà Đá Hay Nóng"
+              vi=""
               description=""
             />
             <MenuItem
               price="$1.00"
               en="Pandan Hot/Iced Tea"
-              vi="Trà Đá Lá Dứa Hay Nóng"
+              vi=""
               description=""
             />
             <MenuItem
               price="$1.50"
-              en="Coke or Sprite"
-              vi="Cô-ca Cô-la Hay Sprite"
+              en="Can of Coke or Diet Coke or Sprite"
+              vi=""
               description=""
             />
             <MenuItem
               price="$1.25"
               en="
               Bottle Water"
-              vi="Nuoc"
+              vi=""
               description=""
             />
             <h2>Sides</h2>
@@ -166,7 +166,7 @@ export default function App() {
             />
             <MenuItem
               price="$2.00"
-              en="Vietnamese Vegan Ham"
+              en="Vegan Ham"
               vi="Chả Lụa Chay"
               description=""
             />
@@ -203,7 +203,7 @@ export default function App() {
               price="$9.50"
               en="⭐Saigon Noodle Soup (NEW)"
               vi="Hủ Tiếu Mì"
-              description="White and yellow noodles , char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made broth."
+              description="White and yellow noodles, char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made vegetable broth."
             />
             <MenuItem
               price="$9.50"
@@ -216,19 +216,19 @@ export default function App() {
               price="$10.50"
               en="Pho Noodle Soup"
               vi="Phở Bò Chay"
-              description="Vegan beef strips, vegan meatballs, mushroom, scallions, onions, cilantro, and rice noodle in our house-made broth."
+              description="Vegan beef strips, vegan meatballs, mushroom, scallions, onions, cilantro, and rice noodle in our house-made pho broth."
             />
             <MenuItem
               price="$10.50"
               en="Royal Noodle Soup"
               vi="Bún Bò Huế"
-              description="Vegan beef strips, Vietnamese vegan ham, scallions, cilantro, mushrooms, onions, and rice noodlein our house-made broth."
+              description="Vegan beef strips, Vietnamese vegan ham, vegan meatballs, tofu, scallions, cilantro, mushrooms, onions, and rice noodle in our house-made broth."
             />
             <MenuItem
               price="$10.00"
               en="Vermicelli Noodle w/ Soup"
               vi="Bún Riêu"
-              description="Our tomato-based noodle soup w/ vermicelli noodles, tomatoes, imitation fish cake, mushroom, tofu, green onions, fried onions,imitation Vietnamese ham, topped w/ cilantro."
+              description="Our tomato-based noodle soup w/ vermicelli noodles, tomatoes, tofu paste, mushroom, tofu, green onions, fried onions, and topped w/ cilantro."
             />
             <MenuItem
               price="$10.50"
@@ -247,74 +247,74 @@ export default function App() {
               price="$10.45"
               en="House Noodle Soup"
               vi="Hủ Tiếu Nam Vang"
-              description="Rice noodle, vegan Chicken and impossible beef, mushroom, tofu, broccoli, carrots, and daikon root.
+              description="Rice noodle, vegan chicken and impossible beef, mushroom, tofu, broccoli, and carrots.
             "
             />
             <MenuItem
               price="$10.45"
               en="Duckless Noodle Soup"
               vi="Mì Vịt Tiềm"
-              description="Yellow noodles, mushroom, bok choy, duckless meat, carrots, and goji berries in our house-made duckless soup broth."
+              description="Yellow noodles, mushroom, bok choy, duckless meat, carrots, and goji berries in our house-made herbal soup broth."
             />
             <MenuItem
               price="$10.50"
               en="Stir Fry Garlic Noodles"
               vi="Mì Xào Tỏi"
-              description="Yellow noodles stir fried w/ vegan beef strips, mushroom, and broccoli. Topped w/ vegan parmesean and parsley."
+              description="Yellow noodles stir fried w/ vegan beef strips, mushroom, and broccoli. Topped w/ vegan parmesan and parsley."
             />
             <MenuItem
               price="$10.00"
               en="Rice Noodle w/ Tomato Soup"
               vi="Canh Bún"
-              description="Rice noodles w/ tomato-based soup, fishless cake, mushroom, water spinach, vegan ham, tofu, and green onions. Topped w/ fried onions and cilantro."
+              description="Rice noodles w/ tomato-based soup, tofu paste, mushroom, water spinach, vegan ham, tofu, and green onions. Topped w/ fried onions and cilantro."
             />
             <MenuItem
               price="$10.45"
               en="House Fried Rice"
               vi="Cơm Chiên"
-              description="White rice vegan bacon, green peas, carrots, tofu, vegan chicken, cilantro and green onions."
+              description="White rice w/ vegan bacon, green peas, carrots, tofu, vegan chicken, cilantro and green onions."
             />
             <MenuItem
               price="$10.95"
               en="Crispy Fried Chow Mein"
               vi="Mì Xào Giòn"
-              description="Crispy chow mein w/ vegan chicken, tofu, green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
+              description="Crispy chow mein w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
             />
             <MenuItem
               price="$10.95"
               en="Stir Fried Noodles"
               vi="Mì Xào Mềm"
-              description="Lo mein w/ vegan chicken, tofu, green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
+              description="Lo mein w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
             />
             <MenuItem
               price="$10.95"
               en="Pan Fried Rice Noodles"
               vi="Phở Áp Chảo"
-              description="Choice of crispy or soft noodle. Rice noodle dish w/ tofu, green onions, brocolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
+              description="Choice of crispy or soft noodle. Rice noodle dish w/ tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
             />
             <MenuItem
               price="$11.45"
               en="BBQ Porkless Vermicelli & Egg Rolls"
               vi="Bún Thịt Nướng + Chả Giò"
-              description="Vermicelli noodle w/ eggrolls, shredded vegan pork, green onions, fried onions, bean sprout, and mint leaves. Topped w/ pickled carrots, daikon and peanuts. Served w/ vegan fish sauce."
+              description="Vermicelli noodle w/ eggrolls, shredded vegan pork (combination of taro, tofu, jicama), green onions, fried onions, bean sprout, and mint leaves. Topped w/ pickled carrots, daikon and peanuts. Served w/ vegan fish sauce."
             />
             <MenuItem
               price="$12.00"
               en="Chicken Curry"
               vi="Cà Ri Gà"
-              description="Creamy coconut curry w/ shredded vegan chicken, potatoes, carrots, and green beans. Topped w/ cilantro, and onions. Served w/ choice of rice or baguette."
+              description="Creamy coconut curry w/ shredded vegan chicken, potatoes, carrots, and green beans. Topped w/ cilantro. Served w/ choice of rice or baguette."
             />
             <MenuItem
               price="$12.45"
               en="Beef Stew"
               vi="Bò Kho"
-              description="Hand-crafted vegan meatballs, potatoes, carrots, kale, and onions. Topped w/ cilantro. Served on a french baguette."
+              description="Vegan meatballs, potatoes, carrots, and kale. Topped w/ cilantro. Served on a french baguette."
             />
             <MenuItem
               price="$13.00"
               en="Red Wine Meatball Stew"
               vi="Bò Viên Hâm Rượu Đỏ"
-              description="Hand-crafted vegan meatballs, asparagus, carrots, onions, and potatoes. Served in a house-made red wine stew and french baugette."
+              description="Vegan meatballs (contains onion), asparagus, carrots, and potatoes. Served in a house-made red wine stew and french baguette."
             />
             </div>
         </div>
