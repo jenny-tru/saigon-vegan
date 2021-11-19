@@ -181,6 +181,10 @@ h1 > small {
 }
 
 .sgv-menu-items {
+  padding-top: 0;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   columns: 2;

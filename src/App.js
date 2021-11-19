@@ -54,7 +54,7 @@ export default function App() {
               en="Portobello Tenders"
               vi="Nấm Chiên"
               description="House-battered portobello served w/ garlic aoli sauce."
-              photo={process.env.PUBLIC_URL + "/photos/portobella-tenders.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/nam-chien.jpg"}
             />
             <MenuItem
               price="$7.75"
@@ -62,7 +62,7 @@ export default function App() {
               vi="Chả Giò"
               description="Hand-rolled w/ taro, impossible beef, mung bean, carrots, glass
             noodle, and mushrooms. Served w/ lettuce, fresh herbs, and vegan fish sauce."
-            photo={process.env.PUBLIC_URL + "/photos/egg-rolls.jpg"}
+            photo={process.env.PUBLIC_URL + "/photos/cha-gio.jpg"}
             />
             <MenuItem
               price="$6.75"
@@ -98,7 +98,7 @@ export default function App() {
               en="Passion Fruit Juice"
               vi=""
               description=""
-              photo={process.env.PUBLIC_URL + "/photos/passionfruit-tea.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/passion-tea.jpg"}
             />
             <MenuItem
               price="$3.75"
@@ -119,7 +119,7 @@ export default function App() {
               en="Organic Jasmine or Earl Grey Hot/Iced Tea"
               vi=""
               description=""
-              photo={process.env.PUBLIC_URL + "/photos/jasmine-tea.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/tea.jpg"}
             />
             <MenuItem
               price="$1.00"
@@ -130,10 +130,10 @@ export default function App() {
             />
             <MenuItem
               price="$1.50"
-              en="Can of Coke or Diet Coke or Sprite"
+              en="Can of Sprite, Coke, or Diet Coke"
               vi=""
               description=""
-              photo={process.env.PUBLIC_URL + "/photos/coke.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/soda-can.jpg"}
             />
             <MenuItem
               price="$1.25"
@@ -160,6 +160,12 @@ export default function App() {
               price="$1.25"
               en="Brown Rice"
               vi="Cơm Lức"
+              description=""
+            />
+            <MenuItem
+              price="$1.50"
+              en="Extra Noodles"
+              vi="Bún/ Mì/ Hủ Tiếu"
               description=""
             />
             <MenuItem
@@ -196,14 +202,14 @@ export default function App() {
             </div>
             <div class="right-column">
             <h2>Entrees</h2>
-            <div>**Gluten Free available upon request**</div>
+            <p>**Gluten Free available upon request**</p>
             <div className="new-item">
             <MenuItem
               price="$9.50"
               en="⭐Saigon Noodle Soup (NEW)"
               vi="Hủ Tiếu Mì"
               description="White and yellow noodles, char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made vegetable broth."
-              photo={process.env.PUBLIC_URL + "/photos/saigon-noodles.jpeg"}
+              photo={process.env.PUBLIC_URL + "/photos/hu-tieu-mi.jpeg"}
               />
             <MenuItem
               price="$9.50"
@@ -266,7 +272,7 @@ export default function App() {
               en="Stir Fry Garlic Noodles"
               vi="Mì Xào Tỏi"
               description="Yellow noodles stir fried w/ vegan beef strips, mushroom, and broccoli. Topped w/ vegan parmesan and parsley."
-              photo={process.env.PUBLIC_URL + "/photos/garlic-noodles.jpg"}/>
+              photo={process.env.PUBLIC_URL + "/photos/mi-xao-toi.jpg"}/>
             <MenuItem
               price="$10.00"
               en="Rice Noodle w/ Tomato Soup"
@@ -279,7 +285,7 @@ export default function App() {
               en="House Fried Rice"
               vi="Cơm Chiên"
               description="White rice w/ vegan bacon, green peas, carrots, tofu, vegan chicken, cilantro and green onions."
-              photo={process.env.PUBLIC_URL + "/photos/house-fried-rice.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/com-chien.jpg"}
               />
             <MenuItem
               price="$10.95"
@@ -299,7 +305,7 @@ export default function App() {
               en="Pan Fried Rice Noodles"
               vi="Phở Áp Chảo"
               description="Choice of crispy or soft noodle. Rice noodle dish w/ tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
-              photo={process.env.PUBLIC_URL + "/photos/pho-ap-chao-don.jpg"}/>
+              photo={process.env.PUBLIC_URL + "/photos/pho-ap-chao-both.jpg"}/>
             <MenuItem
               price="$11.45"
               en="BBQ Porkless Vermicelli & Egg Rolls"
@@ -312,21 +318,21 @@ export default function App() {
               en="Chicken Curry"
               vi="Cà Ri Gà"
               description="Creamy coconut curry w/ shredded vegan chicken, tofu, potatoes, carrots, and green beans. Topped w/ cilantro. Served w/ choice of rice or baguette."
-              photo={process.env.PUBLIC_URL + "/photos/chicken-curry.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/ca-ri-ga.jpg"}
             />
             <MenuItem
               price="$12.45"
               en="Beef Stew"
               vi="Bò Kho"
               description="Vegan meatballs, potatoes, carrots, and kale. Topped w/ cilantro. Served on a french baguette."
-              photo={process.env.PUBLIC_URL + "/photos/beef-stew.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/bo-kho.jpg"}
             />
             <MenuItem
               price="$13.00"
               en="Red Wine Meatball Stew"
               vi="Bò Viên Hâm Rượu Đỏ"
               description="Vegan meatballs (contains onion), asparagus, carrots, and potatoes. Served in a house-made red wine stew and french baguette."
-              photo={process.env.PUBLIC_URL + "/photos/wine-meatball-stew.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/bo-vien-ham-ruou-do.jpg"}
               />
             </div>
         </div>
