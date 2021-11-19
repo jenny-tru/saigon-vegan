@@ -143,6 +143,14 @@ export default function App() {
               description=""
               photo={process.env.PUBLIC_URL + "/photos/water.jpg"}
             />
+            <h2>Dessert</h2>
+            <MenuItem
+              price="$4.95"
+              en="Fabulous Flan"
+              vi="Bánh Flan"
+              description="Rich and creamy house-made vegan custard w/ our coffee caramel sauce."
+              photo={process.env.PUBLIC_URL + "/photos/flan.jpg"}
+              />
             <h2>Sides</h2>
             <MenuItem
               price="$1.25"
@@ -192,13 +200,6 @@ export default function App() {
               vi=""
               description=""
             /> */}
-            <h2>Dessert</h2>
-            <MenuItem
-              price="$4.95"
-              en="Fabulous Flan"
-              vi="Bánh Flan"
-              description="Rich and creamy house-made vegan custard w/ our coffee caramel sauce."
-              photo={process.env.PUBLIC_URL + "/photos/flan.jpg"}/>
             </div>
             <div class="right-column">
             <h2>Entrees</h2>
@@ -309,7 +310,7 @@ export default function App() {
             <MenuItem
               price="$11.45"
               en="BBQ Porkless Vermicelli & Egg Rolls"
-              vi="Bún Thịt Nướng + Chả Giò"
+              vi="Bún Thịt Nướng & Chả Giò"
               description="Vermicelli noodle w/ eggrolls, shredded vegan pork (combination of taro, tofu, jicama), green onions, fried onions, bean sprout, and mint leaves. Topped w/ pickled carrots, daikon and peanuts. Served w/ vegan fish sauce."
               photo={process.env.PUBLIC_URL + "/photos/bun-thit-nuong.jpg"}
             />
