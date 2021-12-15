@@ -2,6 +2,8 @@ import { MenuItem } from "./MenuItem";
 import "./styles.scss";
 import happycow from "./happycow.jpeg";
 import yelp from "./yelp.jpg";
+import instagram from "./instagram.png";
+import facebook from "./fb.png";
 import logo from "./sgv-logo.png";
 import bkg from "./bkg.jpg";
 
@@ -16,12 +18,18 @@ export default function App() {
             {" "}
             <a href="tel:+16572316607">📞 657-231-6607</a>{" "}
           </div>
-          <div>
+          <div className="social-media">
             <a href="https://www.happycow.net/reviews/saigon-vegan-garden-grove-166207">
-              <img src={happycow} alt="reviews" id="customer-review" />
+              <img src={happycow} alt="reviews" id="customer-review-hc" />
             </a>
             <a href="https://www.yelp.com/biz/saigon-vegan-garden-grove-2">
-            <img src={yelp} alt="reviews" id="customer-review" />
+            <img src={yelp} alt="reviews" id="customer-review-yelp" />
+            </a>
+            <a href="https://www.instagram.com/sgvegan/">
+            <img src={instagram} alt="reviews" id="customer-review-ig" />
+            </a>
+            <a href="https://www.facebook.com/SGVeganGG/">
+            <img src={facebook} alt="reviews" id="customer-review-fb" />
             </a>
           </div>
           
