@@ -242,7 +242,7 @@ export default function App() {
               price="$10.75"
               en="Original Philly"
               vi="Bánh Mì Philly"
-              description="Ciabatta bread topped w/ impossible beef crumbles, grilled onons, and melted vegan provolone and mozzarella cheese. Served with a side salad."
+              description="Ciabatta bread topped w/ impossible beef crumbles, grilled onions, and melted vegan provolone and mozzarella cheese. Served with a side salad."
               photo={process.env.PUBLIC_URL + "/photos/philly.jpg"}/>
             <h2>Drinks</h2>
             <MenuItem
