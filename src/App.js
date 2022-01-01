@@ -261,6 +261,13 @@ export default function App() {
             />
             <MenuItem
               price="$3.75"
+              en="Green Thai Iced Tea"
+              vi=""
+              description=""
+              photo={process.env.PUBLIC_URL + "/photos/green-thai-tea.png"}
+            />
+            <MenuItem
+              price="$3.75"
               en="Thai Iced Tea"
               vi=""
               description=""
