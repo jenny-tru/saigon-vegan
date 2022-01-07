@@ -11,9 +11,9 @@ const MenuItemPhoto = ({ src }) => {
   )
 }
 
-export const MenuItem = ({ en, vi, description, price, photo }) => {
+export const MenuItem = ({ en, vi, description, price, photo, special }) => {
   return (
-    <div className="item">
+    <div className={`item ${special ? 'new-item' : ''}`}>
       {photo && <MenuItemPhoto src={photo} />}
       <div className="item-en">
         <div>{en}</div>

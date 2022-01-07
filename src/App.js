@@ -43,7 +43,7 @@ export default function App() {
             <br /> Saigon Vegan <br /> Nhà Hàng Chay
           </h1>
           <p className="sgv-hero-content">
-            Join us for delicious Vietnamese plant-based home-style cooking!
+            Join us for delicious 100% Vegan Vietnamese plant-based home-style cooking!
             <br /> Vegan Restaurant in Garden Grove!
           </p>
           <button className="order-button"><a href="tel:+16572316607">Call to Order Now </a>{" "}</button>
@@ -51,6 +51,8 @@ export default function App() {
       </div>
       <div className="hours">
       <strong>Hours: 11am- 8pm Closed on Tuesdays</strong>
+      <p>**Gluten Free available upon request** <br />
+          **Please advise server of any food allergies**</p>
       </div>
       <div className="sgv-menu" style={{'--bkg': `url(${bkg})`}}>
       <img src={logo} alt="sgv logo" id="logo" />
@@ -79,24 +81,22 @@ export default function App() {
               description="Topped w/ fried onions and green onions. Served w/ house-made plum sauce."
               photo={process.env.PUBLIC_URL + "/photos/crispy-tofu.jpg"}
               />
-              <h2>Entrees</h2>
-            <p>**Gluten Free available upon request**</p>
-            {/* <div className="new-item">
-            <MenuItem
+              <h2>Entrees</h2>            
+            <MenuItem special={true}
+              price="$11.00"
+              en="⭐General Tsoy (NEW)"
+              vi="Thập Cẩm Xào"
+              description="Vegan beef, broccoli, cauliflower, carrots, mushrooms, and tofu stir fried with our General Tso sauce. Served w/ white rice and spring mix."
+              photo={process.env.PUBLIC_URL + "/photos/general-tsoy.jpg"}
+              />
+            
+            {/* <MenuItem
               price="$9.50"
               en="⭐dish (NEW)"
               vi=""
               description=""
               photo={process.env.PUBLIC_URL + "/photos/orange-cauliflower.jpg"}
-              />
-            <MenuItem
-              price="$9.50"
-              en="⭐dish (NEW)"
-              vi=""
-              description=""
-              photo={process.env.PUBLIC_URL + "/photos/orange-cauliflower.jpg"}
-              />
-            </div> */}
+              /> */}
             <MenuItem
               price="$10.50"
               en="Pho Noodle Soup"
@@ -177,7 +177,7 @@ export default function App() {
             <MenuItem
               price="$10.50"
               en="Pad Thai"
-              vi="Mì Pad Thái"
+              vi="Hu Tieu Pad Thái"
               description="Rice noodle, mushroom, fried tofu, vegan chicken, and house-made sauce. Served w/ steamed bean sprout, carrots, peanuts and lime."
               photo={process.env.PUBLIC_URL + "/photos/pad-thai.jpg"}
               />
@@ -185,7 +185,7 @@ export default function App() {
               price="$10.50"
               en="Stir Fry Garlic Noodles"
               vi="Mì Xào Tỏi"
-              description="Yellow noodles stir fried w/ vegan beef strips, mushroom, and broccoli. Topped w/ vegan parmesan and parsley."
+              description="Yellow noodles stir fried w/ vegan chicken, mushroom, and broccoli. Topped w/ vegan parmesan and parsley."
               photo={process.env.PUBLIC_URL + "/photos/mi-xao-toi.jpg"}
               />
               <MenuItem
@@ -205,7 +205,7 @@ export default function App() {
               price="$10.95"
               en="Pan Fried Rice Noodles"
               vi="Phở Áp Chảo"
-              description="Choice of crispy or soft noodle. Rice noodle dish w/ tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
+              description="Choice of crispy or soft noodle. Rice noodle dish w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce."
               photo={process.env.PUBLIC_URL + "/photos/pho-ap-chao-both.jpg"}/>
             <MenuItem
               price="$11.45"
@@ -247,6 +247,13 @@ export default function App() {
             <h2>Drinks</h2>
             <MenuItem
               price="$3.75"
+              en="Viet Iced Coffee"
+              vi=""
+              description=""
+              photo={process.env.PUBLIC_URL + "/photos/coffee.jpg"}
+            />
+            <MenuItem
+              price="$3.75"
               en="Hibiscus Tea w/ Crystal Boba"
               vi=""
               description=""
@@ -274,11 +281,11 @@ export default function App() {
               photo={process.env.PUBLIC_URL + "/photos/thai-tea.jpg"}
             />
             <MenuItem
-              price="$3.75"
-              en="Viet Iced Coffee"
+              price="$1.00"
+              en="Pandan Hot/Iced Tea"
               vi=""
               description=""
-              photo={process.env.PUBLIC_URL + "/photos/coffee.jpg"}
+              photo={process.env.PUBLIC_URL + "/photos/pandan-tea.jpg"}
             />
             <MenuItem
               price="$1.25"
@@ -286,13 +293,6 @@ export default function App() {
               vi=""
               description=""
               photo={process.env.PUBLIC_URL + "/photos/tea.jpg"}
-            />
-            <MenuItem
-              price="$1.00"
-              en="Pandan Hot/Iced Tea"
-              vi=""
-              description=""
-              photo={process.env.PUBLIC_URL + "/photos/pandan-tea.jpg"}
             />
             <MenuItem
               price="$1.50"
@@ -317,7 +317,7 @@ export default function App() {
               description="Rich and creamy house-made vegan custard w/ our coffee caramel sauce."
               photo={process.env.PUBLIC_URL + "/photos/flan.jpg"}
               />
-            <h2>Sides</h2>
+            <h2>Sides/ Extra</h2>
             <MenuItem
               price="$1.25"
               en="Baguette"

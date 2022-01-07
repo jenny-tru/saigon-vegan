@@ -71,12 +71,13 @@ html, body {
 }
 
 .hours {
-  align-self: center;
+  align-items: center;
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   padding: 1rem;
   margin: 0;
-  font-weight: bold;
 }
 
 .sgv-hero {
@@ -273,6 +274,11 @@ h1 > small {
 
 .left-column {
   border-right: 1px solid #dcdcdc;
+}
+
+.item.new-item {
+  border: 2px solid var(--color-primary);
+  box-shadow: none;
 }
 
 .sgv-nav-footer {
