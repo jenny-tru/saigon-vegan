@@ -171,7 +171,7 @@ export default function App() {
               price="$10.45"
               en="Fishless Cake w/ Noodles & Baby Dill"
               vi="Bún Chả Cá Thì Là"
-              description="Vermicelli noodle, crispy fishless cake, bell pepper, onions, dill leaves, roasted peanuts, and vegan fish sauce."
+              description="Vermicelli noodle, crispy fishless cake, bell pepper, onions, bean sprout, dill leaves, roasted peanuts, and vegan fish sauce."
               photo={process.env.PUBLIC_URL + "/photos/bun-cha-ca.jpg"}
             />
             <MenuItem
@@ -211,7 +211,7 @@ export default function App() {
               price="$11.45"
               en="BBQ Porkless Vermicelli & Egg Rolls"
               vi="Bún Thịt Nướng & Chả Giò"
-              description="Vermicelli noodle w/ eggrolls, shredded vegan pork (combination of taro, tofu, jicama), green onions, fried onions, bean sprout, and mint leaves. Topped w/ pickled carrots, daikon and peanuts. Served w/ vegan fish sauce."
+              description="Vermicelli noodle w/ eggrolls, shredded vegan pork (combination of taro, tofu, jicama), green onions, fried onions, bean sprout, cucumbers, shredded lettuce, and mint leaves. Topped w/ pickled carrots, daikon and peanuts. Served w/ vegan fish sauce."
               photo={process.env.PUBLIC_URL + "/photos/bun-thit-nuong.jpg"}
             />
             <MenuItem
