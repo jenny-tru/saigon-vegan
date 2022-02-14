@@ -41,33 +41,47 @@ html, body {
   color: white;
 }
 
+.sgv-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.contact-icon {
+ width: 50px;
+ height: 40px;
+}
+
+.contact-phone {
+  font-size: x-large;
+}
+
 .social-media {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;;
+  justify-content: center;
+  gap: 1rem;
 }
 
 #customer-review-hc {
-  width: 130px;
-  height: 55px;
+  width: auto;
+  height: 35px;
 }
 
 #customer-review-yelp {
-  width: 100px;
-  height: 55px;
+  width: auto;
+  height: 30px;
 }
 
 #customer-review-ig {
-  width: 30px;
+  width: auto;
   height: 30px;
-  margin: 5px;
 }
 
 #customer-review-fb {
-  width: 50px;
-  height: 50px;
-  padding: 10px;
+  width: auto;
+  height: 30px;
 }
 
 .hours {
@@ -78,6 +92,7 @@ html, body {
   justify-content: space-around;
   padding: 1rem;
   margin: 0;
+  font-size: large;
 }
 
 .sgv-hero {

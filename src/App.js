@@ -1,9 +1,11 @@
 import { MenuItem } from "./MenuItem";
 import "./styles.scss";
-import happycow from "./happycow.jpeg";
-import yelp from "./yelp.jpg";
-import instagram from "./instagram.png";
-import facebook from "./fb.png";
+import phone from "./phone.svg";
+import map from "./map.svg";
+import happycow from "./happy-cow.svg";
+import yelp from "./yelp.svg";
+import instagram from "./instagram.svg";
+import facebook from "./fb.svg";
 import logo from "./sgv-logo.png";
 import bkg from "./bkg.jpg";
 
@@ -13,10 +15,11 @@ export default function App() {
     <div className="App">
       <header className="sgv-header">
         <div className="sgv-nav-header">
-          <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ 10522 McFadden Ave. Garden Grove 92843</a></div>
-          <div>
-            {" "}
-            <a href="tel:+16572316607">📞 657-231-6607</a>{" "}
+          <div className="sgv-contact">
+            <a href="https://goo.gl/maps/oodryCSysbdYLKho9" className="sgv-contact-link"><img src={map} className="contact-icon"/> 10522 McFadden Ave. Garden Grove 92843</a>
+          </div>
+          <div className="sgv-contact">
+            <a href="tel:+16572316607" className="sgv-contact-link"><img src={phone} className="contact-icon"/><span className="contact-phone">657-231-6607</span></a>
           </div>
           <div className="social-media">
             <a href="https://www.happycow.net/reviews/saigon-vegan-garden-grove-166207">
@@ -32,9 +35,7 @@ export default function App() {
             <img src={facebook} alt="reviews" id="customer-review-fb" />
             </a>
           </div>
-          
         </div>
-    {/* old nav was here */}
       </header>
       <div className="sgv-hero">
         <div className="sgv-hero-inner">
@@ -50,9 +51,9 @@ export default function App() {
         </div>
       </div>
       <div className="hours">
-      <strong>Hours: 11am- 8pm Closed on Tuesdays</strong>
-      <p>**Gluten Free available upon request** <br />
-          **Please advise server of any food allergies**</p>
+      <h3><strong>Hours: 11am- 8pm Closed on Tuesdays</strong></h3>
+      <p><em>**Gluten Free available upon request** <br />
+          **Please advise server of any food allergies**</em></p>
       </div>
       <div className="sgv-menu" style={{'--bkg': `url(${bkg})`}}>
       <img src={logo} alt="sgv logo" id="logo" />
@@ -97,6 +98,7 @@ export default function App() {
               description=""
               photo={process.env.PUBLIC_URL + "/photos/orange-cauliflower.jpg"}
               /> */}
+              
             <MenuItem
               price="$10.50"
               en="Pho Noodle Soup"
@@ -365,10 +367,11 @@ export default function App() {
       </div>
       <footer className="sgv-footer">
       <div className="sgv-nav-footer">
-      <div><a href="https://goo.gl/maps/oodryCSysbdYLKho9">🗺️ Visit Us</a></div>
-          <div>
-            {" "}
-            <a href="tel:+16572316607">📞 Call Us</a>{" "}
+      <div className="sgv-contact">
+            <a href="https://goo.gl/maps/oodryCSysbdYLKho9" className="sgv-contact-link"><img src={map} className="contact-icon"/> 10522 McFadden Ave. Garden Grove 92843</a>
+          </div>
+          <div className="sgv-contact">
+            <a href="tel:+16572316607" className="sgv-contact-link"><img src={phone} className="contact-icon"/>657-231-6607</a>
           </div>
         </div>
       </footer>
