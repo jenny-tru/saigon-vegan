@@ -341,4 +341,8 @@ h1 > small {
   .hide-on-mobile {
     display: none;
   }
+
+  .sgv-nav-footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -368,10 +368,10 @@ export default function App() {
       <footer className="sgv-footer">
       <div className="sgv-nav-footer">
       <div className="sgv-contact">
-            <a href="https://goo.gl/maps/oodryCSysbdYLKho9" className="sgv-contact-link"><img src={map} className="contact-icon"/> 10522 McFadden Ave. Garden Grove 92843</a>
-          </div>
-          <div className="sgv-contact">
             <a href="tel:+16572316607" className="sgv-contact-link"><img src={phone} className="contact-icon"/>657-231-6607</a>
+          </div>
+      <div className="sgv-contact">
+            <a href="https://goo.gl/maps/oodryCSysbdYLKho9" className="sgv-contact-link"><img src={map} className="contact-icon"/> 10522 McFadden Ave. Garden Grove 92843</a>
           </div>
         </div>
       </footer>
