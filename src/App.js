@@ -64,7 +64,7 @@ export default function App() {
               price="$7.45"
               en="Portobello Tenders"
               vi="Nấm Chiên"
-              description="House-battered portobello served w/ garlic aoli sauce."
+              description="House-battered and breaded portobello mushrooms, deep fried, topped w/ peppers & chopped parsley. Served w/ garlic aoli sauce."
               photo={process.env.PUBLIC_URL + "/photos/nam-chien.jpg"}
             />
             <MenuItem
