@@ -79,7 +79,7 @@ export default function App() {
               price="$6.75"
               en="Crispy Tofu"
               vi="Đậu Hũ Chiên"
-              description="Topped w/ fried onions and green onions. Served w/ house-made plum sauce."
+              description="House-battered soft tofu pieces, deep fried, topped w/ peppers & chopped parsley. Served w/ house-made plum sauce."
               photo={process.env.PUBLIC_URL + "/photos/crispy-tofu.jpg"}
               />
               <h2>Entrees</h2>            
