@@ -87,7 +87,7 @@ export default function App() {
               <h2>Entrees</h2>            
             <MenuItem special={true}
               price="$11.00"
-              en="⭐General Tsoy (NEW)"
+              en="⭐General Tsoy (NEW) 🌶️🌶️"
               vi="Thập Cẩm Xào"
               description="Vegan beef, broccoli, cauliflower, carrots, mushrooms, and tofu stir fried with our General Tso sauce. Served w/ white rice and spring mix."
               photo={process.env.PUBLIC_URL + "/photos/general-tsoy.jpg"}
@@ -110,8 +110,8 @@ export default function App() {
               />
             <MenuItem
               price="$10.50"
-              en="Royal Noodle Soup"
-              vi="Bún Bò Huế"
+              en="Royal Noodle Soup 🌶️"
+              vi="Bún Bò Huế 🌶️"
               description="Vegan beef strips, Vietnamese vegan ham, vegan meatballs, tofu, scallions, cilantro, mushrooms, onions, and rice noodle in our house-made broth."
               photo={process.env.PUBLIC_URL + "/photos/bun-bo-hue.jpg"}
               />
@@ -152,8 +152,8 @@ export default function App() {
               />
               <MenuItem
               price="$12.45"
-              en="Beef Stew"
-              vi="Bò Kho"
+              en="Beef Stew 🌶️"
+              vi="Bò Kho 🌶️"
               description="Vegan meatballs, potatoes, carrots, and kale. Topped w/ cilantro. Served on a french baguette."
               photo={process.env.PUBLIC_URL + "/photos/bo-kho.jpg"}
             />
