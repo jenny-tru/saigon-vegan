@@ -157,13 +157,14 @@ export default function App() {
               description="Vegan meatballs, potatoes, carrots, and kale. Topped w/ cilantro. Served on a french baguette."
               photo={process.env.PUBLIC_URL + "/photos/bo-kho.jpg"}
             />
+            {/* no longer serving dish below
             <MenuItem
               price="$13.00"
               en="Red Wine Meatball Stew"
               vi="Bò Viên Hâm Rượu Đỏ"
               description="Vegan meatballs (contains onion), asparagus, carrots, and potatoes. Served in a house-made red wine stew and french baguette."
               photo={process.env.PUBLIC_URL + "/photos/bo-vien-ham-ruou-do.jpg"}
-              />
+              /> */}
             <MenuItem
               price="$12.00"
               en="Chicken Curry"
