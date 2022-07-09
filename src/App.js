@@ -240,14 +240,14 @@ export default function App() {
               price="$10.45"
               en="Vegan Ham & Cheese"
               vi="Bánh Mì Ham & Cheese"
-              description="Ciabatta bread topped w/ vegan ham, grilled onions, and melted vegan cheddar and parmesan. Served with a side salad."
+              description="Ciabatta bread topped w/ vegan ham, vegan mayo, grilled onions, and melted vegan cheddar and parmesan. Served with a side salad."
               photo={process.env.PUBLIC_URL + "/photos/ham-cheese.jpg"}
               />
             <MenuItem
               price="$10.75"
               en="Original Philly"
               vi="Bánh Mì Philly"
-              description="Ciabatta bread topped w/ impossible beef crumbles, grilled onions, and melted vegan provolone and mozzarella cheese. Served with a side salad."
+              description="Ciabatta bread topped w/ impossible beef crumbles, vegan mayo, grilled onions, melted vegan provolone and mozzarella cheese. Served with a side salad."
               photo={process.env.PUBLIC_URL + "/photos/philly.jpg"}/>
             <h2>Drinks</h2>
             <MenuItem
