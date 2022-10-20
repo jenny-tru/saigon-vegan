@@ -1,22 +1,22 @@
 {
   "appetizers": [
     {
-      "price": "$7.45",
-      "en": "Portobello Tenders",
+      "price": "$7.95",
+      "en": "A1. Portobello Tenders",
       "vi": "Nấm Chiên",
       "description": "House-battered and breaded portobello mushrooms, deep fried, topped w/ peppers & chopped parsley. Served w/ garlic aoli sauce.",
       "photo": "nam-chien.jpg"
     },
     {
       "price": "$7.75",
-      "en": "Egg Rolls",
+      "en": "A2. Egg Rolls",
       "vi": "Chả Giò",
       "description": "Hand-rolled w/ taro, impossible beef, mung bean, ,carrots, glass noodle, and mushrooms. Served w/ lettuce, fresh herbs, and vegan fish sauce.",
       "photo": "cha-gio.jpg"
     },
     {
       "price": "$6.75",
-      "en": "Crispy Tofu",
+      "en": "A3. Crispy Tofu",
       "vi": "Đậu Hũ Chiên",
       "description": "House-battered soft tofu pieces, deep fried, topped ,w/ peppers & chopped parsley. Served w/ house-made plum sauce.",
       "photo": "crispy-tofu.jpg"
@@ -25,150 +25,165 @@
   "entrees": [
     {
       "special": true,
-      "price": "$11.00",
-      "en": "⭐ General Tsoy 🌶️🌶️",
-      "vi": "Thập Cẩm Xào 🌶️🌶️",
-      "description": "Vegan beef, broccoli, cauliflower, carrots, mushrooms, and tofu stir fried with our General Tso sauce. Served w/ white rice and spring mix.",
-      "photo": "general-tsoy.jpg"
+      "price": "$11.50",
+      "en": "C14.⭐ Spaghetti w/ Meatballs",
+      "vi": "Mỳ Ý Với Thịt Viên",
+      "description": "Spaghetti pasta w/ vegan meatballs tossed in our house made spaghetti sauce (contains white onions). Topped w/ vegan parmesan and chopped parsley.",
+      "photo": "spaghetti.jpg"
     },
     {
+      "special": true,
       "price": "$10.50",
-      "en": "Pho Noodle Soup",
+      "en": "C21.⭐ Stir Fried Veggies",
+      "vi": "Rau Xào",
+      "description": "Stir fried green beans, carrots, onions, mushrooms, and tofu, topped w/ sesame seeds. Served w/ white rice. [GF option available]",
+      "photo": "stirfried-veggies.jpg"
+    },
+    {
+      "price": "$10.95",
+      "en": "C1. Pho Noodle Soup",
       "vi": "Phở Bò Chay",
       "description": "Vegan beef strips, vegan meatballs, tofu, mushroom, scallions, onions, cilantro, and rice noodle in our house-made pho broth.",
       "photo": "pho.jpg"
     },
     {
-      "price": "$10.50",
-      "en": "Royal Noodle Soup 🌶️",
+      "price": "$10.95",
+      "en": "C2. Royal Noodle Soup 🌶️",
       "vi": "Bún Bò Huế 🌶️",
       "description": "Vegan beef strips, Vietnamese vegan ham, vegan meatballs, tofu, scallions, cilantro, mushrooms, onions, and rice noodle in our house-made broth.",
       "photo": "bun-bo-hue.jpg"
     },
     {
-      "price": "$10.45",
-      "en": "Duckless Noodle Soup",
+      "price": "$10.95",
+      "en": "C3. Duckless Noodle Soup",
       "vi": "Mì Vịt Tiềm",
       "description": "Yellow noodles, mushroom, bok choy, duckless meat, carrots, and goji berries in our house-made herbal soup broth.",
       "photo": "mi-vit-tiem.jpg"
     },
     {
-      "price": "$10.45",
-      "en": "House Noodle Soup",
+      "price": "$10.95",
+      "en": "C4. House Noodle Soup",
       "vi": "Hủ Tiếu Nam Vang",
       "description": "Rice noodle, vegan chicken and impossible beef, mushroom, tofu, broccoli, and carrots.",
       "photo": "hu-tieu-nam-vang.jpg"
     },
     {
-      "price": "$9.50",
-      "en": "Saigon Noodle Soup **",
+      "price": "$10.95",
+      "en": "C5. Saigon Noodle Soup **",
       "vi": "Hủ Tiếu Mì **",
       "description": "White and yellow noodles, char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made vegetable broth. [GF option available]",
       "photo": "hu-tieu-mi.jpeg"
     },
     {
-      "price": "$10.00",
-      "en": "Rice Noodle w/ Tomato Soup",
+      "price": "$10.95",
+      "en": "C6. Rice Noodle w/ Tomato Soup",
       "vi": "Canh Bún",
       "description": "Rice noodles w/ tomato-based soup, tofu paste, mushroom, water spinach, vegan ham, tofu, and green onions. Topped w/ fried onions and cilantro.",
       "photo": "canh-bun.jpg"
     },
     {
-      "price": "$10.00",
-      "en": "Vermicelli Noodle w/ Soup",
+      "price": "$10.95",
+      "en": "C7. Vermicelli Noodle w/ Soup",
       "vi": "Bún Riêu",
       "description": "Our tomato-based noodle soup w/ vermicelli noodles, tomatoes, tofu paste, mushroom, tofu, green onions, fried onions, and topped w/ cilantro.",
       "photo": "bun-rieu.jpg"
     },
     {
-      "price": "$12.45",
-      "en": "Beef Stew 🌶️",
+      "price": "$12.50",
+      "en": "C8. Beef Stew 🌶️",
       "vi": "Bò Kho 🌶️",
       "description": "Vegan meatballs, potatoes, carrots, and kale. Topped w/ cilantro. Served on a french baguette.",
       "photo": "bo-kho.jpg"
     },
     {
-      "price": "$12.00",
-      "en": "Chicken Curry",
+      "price": "$12.50",
+      "en": "C9. Chicken Curry",
       "vi": "Cà Ri Gà",
       "description": "Creamy coconut curry w/ shredded vegan chicken, tofu, potatoes, carrots, and green beans. Topped w/ cilantro. Served w/ choice of rice or baguette.",
       "photo": "ca-ri-ga.jpg"
     },
     {
-      "price": "$10.45",
-      "en": "Fishless Cake w/ Noodles & Baby Dill 🥜",
-      "vi": "Bún Chả Cá Thì Là 🥜",
-      "description": "Vermicelli noodle, crispy fishless cake, bell pepper, onions, bean sprout, dill leaves, roasted peanuts, and vegan fish sauce.",
-      "photo": "bun-cha-ca.jpg"
-    },
-    {
-      "price": "$10.50",
-      "en": "Pad Thai 🥜",
-      "vi": "Hu Tieu Pad Thái 🥜",
-      "description": "Rice noodle, mushroom, fried tofu, vegan chicken, and house-made sauce. Served w/ steamed bean sprout, carrots, peanuts and lime.",
-      "photo": "pad-thai.jpg"
-    },
-    {
-      "price": "$10.50",
-      "en": "Stir Fry Garlic Noodles",
-      "vi": "Mì Xào Tỏi",
-      "description": "Yellow noodles stir fried w/ vegan chicken, mushroom, and broccoli. Topped w/ vegan parmesan and parsley.",
-      "photo": "mi-xao-toi.jpg"
-    },
-    {
-      "price": "$10.95",
-      "en": "Crispy Fried Chow Mein",
-      "vi": "Mì Xào Dòn",
-      "description": "Crispy chow mein w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce.",
-      "photo": "mi-xao-don.jpg"
-    },
-    {
-      "price": "$10.95",
-      "en": "Stir Fried Noodles",
-      "vi": "Mì Xào Mềm",
-      "description": "Lo mein w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce.",
-      "photo": "mi-xao-mem.jpg"
-    },
-    {
-      "price": "$10.95",
-      "en": "Pan Fried Rice Noodles **",
-      "vi": "Phở Áp Chảo **",
-      "description": "Choice of crispy or soft noodle. Rice noodle dish w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce. [GF option available]",
-      "photo": "pho-ap-chao-both.jpg"
-    },
-    {
-      "price": "$11.45",
-      "en": "BBQ Porkless Vermicelli & Egg Rolls 🥜",
+      "price": "$11.95",
+      "en": "C10. BBQ Porkless Vermicelli & Egg Rolls 🥜",
       "vi": "Bún Thịt Nướng & Chả Giò 🥜",
       "description": "Vermicelli noodle w/ eggrolls, shredded vegan pork (combination of taro, tofu, jicama), green onions, fried onions, bean sprout, cucumbers, shredded lettuce, and mint leaves. Topped w/ pickled carrots, daikon and peanuts. Served w/ vegan fish sauce.",
       "photo": "bun-thit-nuong.jpg"
     },
     {
-      "price": "$10.45",
-      "en": "House Fried Rice **",
+      "price": "$10.95",
+      "en": "C11. Fishless Cake w/ Noodles & Baby Dill 🥜",
+      "vi": "Bún Chả Cá Thì Là 🥜",
+      "description": "Vermicelli noodle, crispy fishless cake, bell pepper, onions, bean sprout, dill leaves, roasted peanuts, and vegan fish sauce.",
+      "photo": "bun-cha-ca.jpg"
+    },
+    {
+      "price": "$10.95",
+      "en": "C12. Pad Thai 🥜",
+      "vi": "Hu Tieu Pad Thái 🥜",
+      "description": "Rice noodle, mushroom, fried tofu, vegan chicken, and house-made sauce. Served w/ steamed bean sprout, carrots, peanuts and lime.",
+      "photo": "pad-thai.jpg"
+    },
+    {
+      "price": "$10.95",
+      "en": "C13. Stir Fry Garlic Noodles",
+      "vi": "Mì Xào Tỏi",
+      "description": "Yellow noodles stir fried w/ vegan chicken, mushroom, and broccoli. Topped w/ vegan parmesan and parsley.",
+      "photo": "mi-xao-toi.jpg"
+    },
+    {
+      "price": "$11.50",
+      "en": "C15. Crispy Fried Chow Mein",
+      "vi": "Mì Xào Dòn",
+      "description": "Crispy chow mein w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce.",
+      "photo": "mi-xao-don.jpg"
+    },
+    {
+      "price": "$11.50",
+      "en": "C16. Stir Fried Noodles",
+      "vi": "Mì Xào Mềm",
+      "description": "Lo mein w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce.",
+      "photo": "mi-xao-mem.jpg"
+    },
+    {
+      "price": "$11.50",
+      "en": "C17. Pan Fried Rice Noodles **",
+      "vi": "Phở Áp Chảo **",
+      "description": "Choice of crispy or soft noodle. Rice noodle dish w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce. [GF option available]",
+      "photo": "pho-ap-chao-both.jpg"
+    },
+    {
+      "price": "$10.95",
+      "en": "C18. House Fried Rice **",
       "vi": "Cơm Chiên **",
       "description": "White rice w/ vegan bacon, green peas, carrots, tofu, vegan chicken, cilantro and green onions. [GF option available]",
       "photo": "com-chien.jpg"
     },
     {
-      "price": "$9.50",
-      "en": "Orange Cauliflower",
+      "price": "$10.95",
+      "en": "C19. Orange Cauliflower",
       "vi": "Bông Cải Trắng Sốt Cam",
       "description": "Breaded cauliflower w/ house-made orange sauce. Served w/ white rice and side salad.",
       "photo": "orange-cauliflower.jpg"
+    },
+    {
+      "price": "$11.00",
+      "en": "C20. General Tsoy 🌶️🌶️",
+      "vi": "Thập Cẩm Xào 🌶️🌶️",
+      "description": "Vegan beef, broccoli, cauliflower, carrots, mushrooms, and tofu stir fried with our General Tso sauce. Served w/ white rice and spring mix.",
+      "photo": "general-tsoy.jpg"
     }
   ],
   "onBread": [
     {
       "price": "$10.45",
-      "en": "Vegan Ham & Cheese",
+      "en": "B1. Vegan Ham & Cheese",
       "vi": "Bánh Mì Ham & Cheese",
       "description": "Ciabatta bread topped w/ vegan ham, vegan mayo, grilled onions, and melted vegan cheddar and parmesan. Served with a side salad.",
       "photo": "ham-cheese.jpg"
     },
     {
       "price": "$10.75",
-      "en": "Original Philly",
+      "en": "B2. Original Philly",
       "vi": "Bánh Mì Philly",
       "description": "Ciabatta bread topped w/ impossible beef crumbles, vegan mayo, grilled onions, melted vegan provolone and mozzarella cheese. Served with a side salad.",
       "photo": "philly.jpg"
@@ -176,38 +191,38 @@
   ],
   "drinks": [
     {
-      "price": "$3.75",
+      "price": "$$4.25",
       "en": "Viet Iced Coffee",
       "vi": "",
       "description": "",
       "photo": "coffee.jpg"
     },
     {
-      "price": "$3.75",
+      "price": "$$4.25",
       "en": "Hibiscus Tea w/ Crystal Boba",
       "vi": "",
-      "description": "",
+      "description": "Includes crystal boba.",
       "photo": "hibiscus-tea.jpg"
     },
     {
-      "price": "$3.75",
+      "price": "$4.25",
       "en": "Passion Fruit Juice",
       "vi": "",
-      "description": "",
+      "description": "*Add crystal boba $0.75*",
       "photo": "passion-tea.jpg"
     },
     {
-      "price": "$3.75",
+      "price": "$4.25",
       "en": "Green Thai Iced Tea",
       "vi": "",
-      "description": "",
+      "description": "*Add crystal boba $0.75*",
       "photo": "green-thai-tea.png"
     },
     {
-      "price": "$3.75",
+      "price": "$$4.25",
       "en": "Thai Iced Tea",
       "vi": "",
-      "description": "",
+      "description": "*Add crystal boba $0.75*",
       "photo": "thai-tea.jpg"
     },
     {
@@ -233,7 +248,7 @@
     },
     {
       "price": "$1.25",
-      "en": "Bottle Water",
+      "en": "Bottled Water",
       "vi": "",
       "description": "",
       "photo": "water.jpg"
@@ -242,7 +257,7 @@
   "dessert": [
     {
       "price": "$4.95",
-      "en": "Fabulous Flan",
+      "en": "D1. Fabulous Flan",
       "vi": "Bánh Flan",
       "description": "Rich and creamy house-made vegan custard w/ our coffee caramel sauce.",
       "photo": "flan.jpg"
@@ -275,7 +290,7 @@
     },
     {
       "price": "$2.00",
-      "en": "Tofu",
+      "en": "Fried Tofu",
       "vi": "Đậu Hũ",
       "description": ""
     },
