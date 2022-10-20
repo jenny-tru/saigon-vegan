@@ -104,18 +104,18 @@ export default function App() {
               <MenuItem key={i} item={item} />
             ))}
 
+<h2>Dessert</h2>
+
+{menuJSON.dessert.map((item, i) => (
+  <MenuItem key={i} item={item} />
+))}
+
             <h2>Drinks</h2>
 
             {menuJSON.drinks.map((item, i) => (
               <MenuItem key={i} item={item} />
             ))}
-
-            <h2>Dessert</h2>
-
-            {menuJSON.dessert.map((item, i) => (
-              <MenuItem key={i} item={item} />
-            ))}
-
+            
             <h2>Sides / Extra</h2>
 
             {menuJSON.sides.map((item, i) => (

@@ -200,14 +200,14 @@
   ],
   "drinks": [
     {
-      "price": "$$4.25",
+      "price": "$4.25",
       "en": "Viet Iced Coffee",
       "vi": "",
       "description": "",
       "photo": "coffee.jpg"
     },
     {
-      "price": "$$4.25",
+      "price": "$4.25",
       "en": "Hibiscus Tea w/ Crystal Boba",
       "vi": "",
       "description": "Includes crystal boba.",
@@ -228,7 +228,7 @@
       "photo": "green-thai-tea.png"
     },
     {
-      "price": "$$4.25",
+      "price": "$4.25",
       "en": "Thai Iced Tea",
       "vi": "",
       "description": "*Add crystal boba $0.75*",
