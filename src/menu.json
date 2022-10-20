@@ -37,7 +37,7 @@
       "en": "C21.⭐ Stir Fried Veggies",
       "vi": "Rau Xào",
       "description": "Stir fried green beans, carrots, onions, mushrooms, and tofu, topped w/ sesame seeds. Served w/ white rice. [GF option available]",
-      "photo": "stirfried-veggies.jpg"
+      "photo": "stirfry-veggies.jpg"
     },
     {
       "price": "$10.95",
@@ -189,6 +189,15 @@
       "photo": "philly.jpg"
     }
   ],
+  "dessert": [
+    {
+      "price": "$4.95",
+      "en": "D1. Fabulous Flan",
+      "vi": "Bánh Flan",
+      "description": "Rich and creamy house-made vegan custard w/ our coffee caramel sauce.",
+      "photo": "flan.jpg"
+    }
+  ],
   "drinks": [
     {
       "price": "$$4.25",
@@ -252,15 +261,6 @@
       "vi": "",
       "description": "",
       "photo": "water.jpg"
-    }
-  ],
-  "dessert": [
-    {
-      "price": "$4.95",
-      "en": "D1. Fabulous Flan",
-      "vi": "Bánh Flan",
-      "description": "Rich and creamy house-made vegan custard w/ our coffee caramel sauce.",
-      "photo": "flan.jpg"
     }
   ],
   "sides": [
