@@ -57,8 +57,8 @@ export default function App() {
             <br /> Saigon Vegan <br /> Nhà Hàng Chay
           </h1>
           <p className="sgv-hero-content">
-            Join us for delicious Vietnamese plant-based home-style cooking!
-            <br /> Vegan Restaurant in Garden Grove!
+            Join us for delicious Vietnamese plant-based, home-style cooking!
+            <br /> 100% Vegan Cuisine
           </p>
           <button className="order-button">
             <a href="tel:+16572316607">Call to Order Now </a>{' '}
@@ -68,7 +68,7 @@ export default function App() {
       <div className="hours">
         <h3>
           <strong>
-            100% Vegan Vietnamese Cuisine
+          Vegan Restaurant in Garden Grove!
             <br />
             Hours: 11am- 8pm Closed on Tuesdays
           </strong>
