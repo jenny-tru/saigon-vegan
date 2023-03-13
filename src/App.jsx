@@ -11,6 +11,7 @@ import facebook from './fb.svg';
 import logo from './sgv-logo.png';
 import bkg from './bkg.jpg';
 import menuJSON from './menu.json';
+import hero from './hero.jpg';
 
 console.log(menuJSON);
 
@@ -50,7 +51,7 @@ export default function App() {
           </div>
         </div>
       </header>
-      <div className="sgv-hero">
+      <div className="sgv-hero" style={{ '--hero': `url(${hero})` }}>
         <div className="sgv-hero-inner">
           <h1 className="sgv-hero-heading">
             <small>Welcome to</small>
@@ -119,6 +120,12 @@ export default function App() {
             <h2>Sides / Extra</h2>
 
             {menuJSON.sides.map((item, i) => (
+              <MenuItem key={i} item={item} />
+            ))}
+
+            <h2>Party Trays</h2>
+
+            {menuJSON.trays.map((item, i) => (
               <MenuItem key={i} item={item} />
             ))}
           </div>
