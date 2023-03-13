@@ -24,22 +24,6 @@
   ],
   "entrees": [
     {
-      "special": true,
-      "price": "$11.50",
-      "en": "C14. NEW⭐ Spaghetti w/ Meatballs ⭐",
-      "vi": "Mỳ Ý Với Thịt Viên",
-      "description": "Spaghetti pasta w/ vegan meatballs tossed in our house made spaghetti sauce (contains white onions). Topped w/ vegan parmesan and chopped parsley.",
-      "photo": "spaghetti.jpg"
-    },
-    {
-      "special": true,
-      "price": "$10.50",
-      "en": "C21. NEW⭐ Stir Fried Veggies ⭐",
-      "vi": "Rau Xào",
-      "description": "Stir fried green beans, carrots, onions, mushrooms, and tofu, topped w/ sesame seeds. Served w/ white rice. [GF option available]",
-      "photo": "stirfry-veggies.jpg"
-    },
-    {
       "price": "$10.95",
       "en": "C1. Pho Noodle Soup",
       "vi": "Phở Bò Chay",
@@ -132,6 +116,13 @@
     },
     {
       "price": "$11.50",
+      "en": "C14. Spaghetti w/ Meatballs",
+      "vi": "Mỳ Ý Với Thịt Viên",
+      "description": "Spaghetti pasta w/ vegan meatballs tossed in our house made spaghetti sauce (contains white onions). Topped w/ vegan parmesan and chopped parsley.",
+      "photo": "spaghetti.jpg"
+    },
+    {
+      "price": "$11.50",
       "en": "C15. Crispy Fried Chow Mein",
       "vi": "Mì Xào Dòn",
       "description": "Crispy chow mein w/ vegan chicken, tofu, green onions, broccolli, bok choy, carrots, chinese spinach, mushroom, and vegan oyster sauce.",
@@ -171,9 +162,24 @@
       "vi": "Thập Cẩm Xào 🌶️🌶️",
       "description": "Vegan beef, broccoli, cauliflower, carrots, mushrooms, and tofu stir fried with our General Tso sauce. Served w/ white rice and spring mix.",
       "photo": "general-tsoy.jpg"
+    },
+    {
+      "price": "$10.50",
+      "en": "C21. Stir Fried Veggies",
+      "vi": "Rau Xào",
+      "description": "Stir fried green beans, carrots, onions, mushrooms, and tofu, topped w/ sesame seeds. Served w/ white rice. [GF option available]",
+      "photo": "stirfry-veggies.jpg"
     }
   ],
   "onBread": [
+    {
+      "special": true,
+      "price": "$9.95",
+      "en": "B3. NEW ⭐ SGV Sub ⭐",
+      "vi": "Bánh Mì SGV",
+      "description": "Baguette w/ vegan pâté (contains nuts), garlic aioli sauce, vegan bacon, hash brown, pickled carrots & daikon, cucumber, spring mix, lettuce, and chopped parsley.",
+      "photo": "banhmi.jpg"
+    },
     {
       "price": "$10.45",
       "en": "B1. Vegan Ham & Cheese",
@@ -200,6 +206,14 @@
   ],
   "drinks": [
     {
+      "special": true,
+      "price": "$5.25",
+      "en": "NEW ⭐ Organic Butterfly Tea ⭐",
+      "vi": "",
+      "description": "Organic Butterfly Tea, sweetened with Organic Agave, served w/ lemons on the side.",
+      "photo": "butterfly-tea.jpg"
+    },
+    {
       "price": "$4.25",
       "en": "Viet Iced Coffee",
       "vi": "",
@@ -225,7 +239,7 @@
       "en": "Green Thai Iced Tea",
       "vi": "",
       "description": "*Add crystal boba $0.75*",
-      "photo": "green-thai-tea.png"
+      "photo": "green-thai-tea.jpg"
     },
     {
       "price": "$4.25",
@@ -299,6 +313,15 @@
       "en": "Water Spinach",
       "vi": "Rau Muống",
       "description": ""
+    }
+  ],
+  "trays": [
+    {
+      "price": "Call for price",
+      "en": "Upon Request",
+      "vi": "",
+      "description": "Fried rice, portobello tenders, egg rolls, you name it! Call us to order a custom tray. Pricing varies.",
+      "photo": "tray-trio.jpg"
     }
   ]
 }
