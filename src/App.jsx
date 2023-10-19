@@ -62,7 +62,7 @@ export default function App() {
             <br /> 100% Vegan Cuisine
           </p>
           <button className="order-button">
-            <a href="tel:+16572316607">Call to Order Now </a>{' '}
+            <a href="https://www.clover.com/online-ordering/saigon-vegan-garden-grove?fbclid=IwAR1DSCtBa9U6nALra2SK_trNYNv6ODkizvoEX0DtvTlmUHKgiJlLJja-bq0">Order Online Now for Pick-Up </a>{' '}
           </button>
         </div>
       </div>
