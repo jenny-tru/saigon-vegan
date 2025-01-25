@@ -80,6 +80,8 @@ export default function App() {
             **Please advise server of any food allergies**
             <br />
             🥜 Items contains peanuts
+            <br />
+            Menu prices are subject to change due to market availability.
           </em>
         </p>
       </div>
