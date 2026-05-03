@@ -60,8 +60,8 @@
     },
     {
       "price": "$13.95",
-      "en": "C5. Saigon Noodle Soup **",
-      "vi": "Hủ Tiếu Mì **",
+      "en": "C5. Saigon Noodle Soup",
+      "vi": "Hủ Tiếu Mì",
       "description": "White and yellow noodles, char siu tofu, mushroom, carrots, broccoli, and cabbage. Served in our house-made vegetable broth. [GF option available]",
       "photo": "hu-tieu-mi.jpeg"
     },
@@ -144,15 +144,15 @@
     },
     {
       "price": "$14.45",
-      "en": "C17. Pan Fried Rice Noodles **",
-      "vi": "Phở Áp Chảo **",
+      "en": "C17. Pan Fried Rice Noodles",
+      "vi": "Phở Áp Chảo",
       "description": "Choice of crispy or soft noodle. Rice noodle dish with vegan chicken, tofu, green onions, broccoli, bok choy, carrots, Chinese spinach, mushroom, and vegan oyster sauce. [GF option available]",
       "photo": "pho-ap-chao-both.jpg"
     },
     {
       "price": "$13.95",
-      "en": "C18. House Fried Rice **",
-      "vi": "Cơm Chiên **",
+      "en": "C18. House Fried Rice",
+      "vi": "Cơm Chiên",
       "description": "White rice with vegan bacon, green peas, carrots, tofu, vegan chicken, cilantro and green onions. [GF option available]",
       "photo": "com-chien.jpg"
     },
@@ -221,13 +221,6 @@
     },
     {
       "price": "$4.95",
-      "en": "Fresh Lemonade",
-      "vi": "",
-      "description": "Organic lemons freshly squeezed and made to order.",
-      "photo": ""
-    },
-    {
-      "price": "$4.95",
       "en": "Viet Iced Coffee",
       "vi": "",
       "description": "",
@@ -267,6 +260,13 @@
       "vi": "",
       "description": "Organic Butterfly Tea, sweetened with organic agave, served with lemons on the side.",
       "photo": "butterfly-tea.jpg"
+    },
+    {
+      "price": "$4.95",
+      "en": "Fresh Lemonade",
+      "vi": "",
+      "description": "Organic lemons freshly squeezed and made to order.",
+      "photo": ""
     },
     {
       "price": "$1.00",
