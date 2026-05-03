@@ -52,7 +52,7 @@
       "photo": "mi-vit-tiem.jpg"
     },
     {
-      "price": "$12.95",
+      "price": "$13.95",
       "en": "C4. House Noodle Soup",
       "vi": "Hủ Tiếu Nam Vang",
       "description": "Rice noodle, vegan chicken and impossible beef, mushroom, tofu, broccoli, and carrots.",
@@ -157,7 +157,7 @@
       "photo": "com-chien.jpg"
     },
     {
-      "price": "$13.50",
+      "price": "$14.45",
       "en": "C19. Orange Cauliflower",
       "vi": "Bông Cải Trắng Sốt Cam",
       "description": "Breaded cauliflower with house-made orange sauce. Served with white rice and side salad.",
@@ -180,14 +180,6 @@
   ],
   "onBread": [
     {
-      "special": true,
-      "price": "$7.95",
-      "en": "B3. NEW ⭐ SGV Sub ⭐",
-      "vi": "Bánh Mì SGV",
-      "description": "Baguette with vegan pâté (contains nuts), garlic aioli sauce, vegan bacon, hash brown, pickled carrots & daikon, cucumber, spring mix, lettuce, and chopped parsley.",
-      "photo": "banhmi.jpg"
-    },
-    {
       "price": "$12.95",
       "en": "B1. Vegan Ham & Cheese",
       "vi": "Bánh Mì Ham & Cheese",
@@ -200,6 +192,13 @@
       "vi": "Bánh Mì Philly",
       "description": "Ciabatta bread topped with impossible beef crumbles, vegan mayo, grilled onions, melted vegan provolone and mozzarella cheese. Served with a side salad.",
       "photo": "philly.jpg"
+    },
+    {
+      "price": "$8.95",
+      "en": "B3. SGV Sub",
+      "vi": "Bánh Mì SGV",
+      "description": "Baguette with vegan pâté (contains nuts), garlic aioli sauce, vegan bacon, hash brown, pickled carrots & daikon, cucumber, spring mix, lettuce, and chopped parsley.",
+      "photo": "banhmi.jpg"
     }
   ],
   "dessert": [
